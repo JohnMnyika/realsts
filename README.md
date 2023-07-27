@@ -8,3 +8,5 @@
   2) In the terminal, run `npm install`
   3) Run `npm run dev` to view project in browser
   
+
+  ## LandBnb is a modern and user-friendly real estate website built using Next.js, Tailwind CSS, Supabase and Locofy. It offers a wide range of properties and accommodations for users to explore, making it their go-to destination for finding the perfect home.
