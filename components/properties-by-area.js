@@ -9,9 +9,7 @@ const PropertiesByArea = () => {
             Properties by Area
           </div>
           <div className="self-stretch relative text-xl leading-[28px] font-body-regular-600 text-lightslategray">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Explore from Apartments, builder floors, villas and more.
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-center justify-center gap-[86px] text-5xl text-gray-700 font-body-regular-600">

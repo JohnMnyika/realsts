@@ -1,5 +1,5 @@
 
-  # LandBnb
+  # ENTAILE INVESTMENT LIMITED
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
@@ -9,4 +9,4 @@
   3) Run `npm run dev` to view project in browser
   
 
-  ### LandBnb is a modern and user-friendly real estate website built using Next.js, Tailwind CSS, Supabase and Locofy. It offers a wide range of properties and accommodations for users to explore, making it their go-to destination for finding the perfect home.
+  ### ENTAILE INVESTMENT LIMITED is a modern and user-friendly real estate website built using Next.js, Tailwind CSS, Supabase and Locofy. It offers a wide range of properties and accommodations for users to explore, making it their go-to destination for finding the perfect home.

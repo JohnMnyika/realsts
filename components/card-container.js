@@ -30,7 +30,7 @@ const CardContainer = ({
       />
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start">
         <div className="flex-1 relative leading-[20.32px] font-medium">
-          92 ALLIUM PLACE, ORLANDO FL 32827
+          Kilimani
         </div>
       </div>
       <div className="self-stretch flex flex-row p-2.5 items-start justify-start text-[13.55px] text-primary-500">

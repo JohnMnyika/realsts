@@ -43,9 +43,7 @@ const Hero = () => {
             Find Your Dream Home
           </div>
           <div className="self-stretch relative text-xl leading-[28px] font-body-regular-600 text-primary-50">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Explore from Apartments, builder floors, villas and more.
           </div>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[17px] text-left text-base text-primary-700 font-body-regular-600">
@@ -71,10 +69,10 @@ const Hero = () => {
                   overlay={
                     <Menu>
                       {[
-                        { value: "New York" },
-                        { value: "Los Angeles" },
-                        { value: "Chicago" },
-                        { value: "Dallas" },
+                        { value: "Nairobi" },
+                        { value: "Kitengela" },
+                        { value: "Athi River" },
+                        { value: "Thika" },
                       ].map((option, index) => (
                         <Menu.Item key={index}>
                           <a onClick={(e) => e.preventDefault()}>

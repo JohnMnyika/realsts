@@ -27,7 +27,7 @@ const Properties = () => {
     <div className="relative w-full flex flex-row p-2.5 box-border items-start justify-start text-center text-33xl text-gray-white font-purple-purse">
       <div className="flex-1 bg-gray-white flex flex-col items-start justify-start">
         <Header
-          imageDimensions="/houseline.svg"
+          imageDimensions="/entlogo.png"
           hamburger={false}
           showHamburgerMenuIcon
         />
@@ -42,7 +42,7 @@ const Properties = () => {
         </div>
         <SortByFilter />
         <Footer
-          houseLine="/houseline1.svg"
+          logoHeight="/entlogo.png"
           socialMediaLogo="/social-media-logo.svg"
           socialMediaLogo1="/social-media-logo1.svg"
           socialMediaLogo2="/social-media-logo2.svg"

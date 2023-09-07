@@ -4,25 +4,25 @@ const Header = ({
   imageDimensions,
   hamburger,
   showHamburgerMenuIcon,
-  logoHeight,
-  houseLineIconJustifyContent,
-  houseLineIconGap,
+  logoWidth, 
+  logoHeightIconJustifyContent,
+  logoHeightIconGap,
   nameFlex,
   hOMEFlex,
   aBOUTUSFlex,
 }) => {
   const topHeaderStyle = useMemo(() => {
     return {
-      height: logoHeight,
+      height: logoWidth, 
     };
-  }, [logoHeight]);
+  }, [logoWidth]);
 
   const topContainerStyle = useMemo(() => {
     return {
-      justifyContent: houseLineIconJustifyContent,
-      gap: houseLineIconGap,
+      justifyContent: logoHeightIconJustifyContent,
+      gap: logoHeightIconGap,
     };
-  }, [houseLineIconJustifyContent, houseLineIconGap]);
+  }, [logoHeightIconJustifyContent, logoHeightIconGap]);
 
   const logoStyle = useMemo(() => {
     return {
@@ -44,7 +44,7 @@ const Header = ({
 
   return (
     <header
-      className="self-stretch bg-gray-white h-[98px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] [background:white] z-[2] text-center text-5xl text-primary-500 font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border"
+      className="self-stretch bg-gray-white h-[150px] flex flex-row py-[22px] px-20 box-border items-center justify-center sticky w-full top-[0] [background:white] z-[2] text-center text-5xl text-primary-500 font-body-regular-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border"
       style={topHeaderStyle}
     >
       <div
@@ -55,13 +55,7 @@ const Header = ({
           className="flex flex-row items-center justify-center gap-[8px]"
           style={logoStyle}
         >
-          <img className="relative w-11 h-11" alt="" src={imageDimensions} />
-          <div className="flex flex-col items-start justify-start">
-            <div className="relative leading-[24px] font-semibold">LandBnb</div>
-            <div className="relative text-sm leading-[16px] font-medium">
-              Real-Estate
-            </div>
-          </div>
+          <img className="relative w-[80px] h-[80px]" alt="" src={imageDimensions} /> {/* Adjust the width and height of the logo */}
         </div>
         <div
           className="flex flex-row items-center justify-end gap-[36px] text-sm text-primary-900 sm:flex"

@@ -5,9 +5,7 @@ const Form = () => {
         <div className="w-[688px] flex flex-col items-center justify-start gap-[24px] max-w-[95%px] lg:max-w-[95%] md:self-stretch md:w-auto">
           <div className="self-stretch relative leading-[48px]">Contact us</div>
           <div className="self-stretch relative text-xl leading-[28px] font-body-regular-600 text-lightslategray">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+          Explore from Apartments, builder floors, villas and more.
           </div>
         </div>
         <div className="self-stretch rounded-xl bg-gray-white shadow-[0px_0px_24px_rgba(0,_0,_0,_0.03)] flex flex-col py-7 px-[30px] items-center justify-start gap-[17px] text-left text-5xl text-darkslategray font-poppins">
