@@ -9,102 +9,50 @@ import Footer from "../components/footer";
 
 const Landing = () => {
   return (
-    <div className="relative w-full flex flex-row p-2.5 box-border items-start justify-start text-center text-21xl text-primary-800 font-purple-purse">
-      <div className="flex-1 bg-gray-white flex flex-col items-center justify-start sm:flex-col">
-        <Header
-          imageDimensions="/entlogo.png"
-          hamburger
-          showHamburgerMenuIcon={false}
-          logoHeight="unset"
-          logoHeightIconJustifyContent="flex-start"
-          logoHeightIconGap="816px"
-          nameFlex="1"
-          hOMEFlex="1"
-          aBOUTUSFlex="1"
-        />
-        <Hero />
-        <div className="self-stretch h-[845px] flex flex-col py-[53px] px-[50px] box-border items-center justify-start gap-[45px]">
-          <div className="self-stretch flex flex-col py-0 px-[30px] items-center justify-start gap-[24px] md:self-stretch md:w-auto">
-            <div className="self-stretch relative leading-[48px]">
-              Properties by Area
-            </div>
-            <div className="self-stretch relative text-xl leading-[28px] font-body-regular-600 text-lightslategray">
-            Explore from Apartments, builder floors, villas and more.
-            </div>
-          </div>
-          <div className="self-stretch flex-1 flex flex-row flex-wrap py-0 px-2.5 box-border items-start justify-center max-w-[95%px] text-left text-5xl text-gray-white font-body-regular-600">
-            <div className="self-stretch flex-1 flex flex-col items-center justify-start gap-[24px] max-w-[1300px]">
-              <div className="self-stretch flex flex-row items-start justify-center gap-[26px] lg:flex-row md:flex-col">
-                <div className="flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-1@3x.png)] bg-cover bg-no-repeat bg-[top] md:flex-[unset] md:self-stretch">
-                  <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-                    <div className="relative leading-[32px] font-semibold">
-                    Kitengela
-                    </div>
-                    <div className="relative text-base leading-[24px] text-center">
-                      25 listings
-                    </div>
-                  </div>
-                </div>
-                <div className="flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-2@3x.png)] bg-cover bg-no-repeat bg-[top] md:flex-[unset] md:self-stretch">
-                  <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-                    <div className="relative leading-[32px] font-semibold">
-                    Ruaka
-                    </div>
-                    <div className="relative text-base leading-[24px] text-center">
-                      25 listings
-                    </div>
-                  </div>
-                </div>
-                <div className="flex-1 rounded-lg h-[241px] flex flex-row items-start justify-start relative bg-[url(/card-3@3x.png)] bg-cover bg-no-repeat bg-[top] md:flex-[unset] md:self-stretch">
-                  <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-                    <div className="relative leading-[32px] font-semibold">
-                    Ngong
-                    </div>
-                    <div className="relative text-base leading-[24px] text-center">
-                      25 listings
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-center gap-[24px] lg:flex-row md:flex-col">
-                <div className="flex-1 rounded-lg h-[241px] flex flex-row p-2.5 box-border items-start justify-start relative bg-[url(/card-4@3x.png)] bg-cover bg-no-repeat bg-[top] md:flex-[unset] md:self-stretch">
-                  <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-                    <div className="relative leading-[32px] font-semibold">
-                    Thika
-                    </div>
-                    <div className="relative text-base leading-[24px] text-center">
-                      25 listings
-                    </div>
-                  </div>
-                </div>
-                <div className="flex-1 rounded-lg h-[241px] flex flex-row p-2.5 box-border items-start justify-start relative bg-[url(/card-5@3x.png)] bg-cover bg-no-repeat bg-[top] md:flex-[unset] md:self-stretch">
-                  <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[11px] z-[0]">
-                    <div className="relative leading-[32px] font-semibold">
-                    Athi River
-                    </div>
-                    <div className="relative text-base leading-[24px] text-center">
-                      25 listings
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="relative w-full flex flex-col items-center justify-start">
+      <Head>
+        <title>Your Page Title</title>
+        {/* Add your meta tags, CSS, and other head content here */}
+      </Head>
+      <Header imageDimensions="/entlogo.png" />
+      <Hero />
+      <div className="container mx-auto p-4 md:p-8">
+        <div className="text-center">
+          <h2 className="text-3xl md:text-4xl font-semibold">Properties by Area</h2>
+          <p className="mt-2 text-lg text-gray-600">
+            Explore Apartments, builder floors, villas, and more.
+          </p>
         </div>
-        <PropertiesByArea />
-        <RentProperties />
-        <RentPropertiesContainer />
-        <Form />
-        <Footer
-          logoHeight="/entlogo.png"
-          socialMediaLogo="/social-media-logo5.svg"
-          socialMediaLogo1="/social-media-logo6.svg"
-          socialMediaLogo2="/social-media-logo7.svg"
-          socialMediaLogo3="/social-media-logo8.svg"
-          socialMediaLogo4="/social-media-logo9.svg"
-          propOverflow="unset"
-        />
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+          {/* Replace the placeholders with your property card components */}
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold">Property 1</h3>
+            <p className="mt-2 text-gray-600">25 listings</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold">Property 2</h3>
+            <p className="mt-2 text-gray-600">30 listings</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold">Property 3</h3>
+            <p className="mt-2 text-gray-600">20 listings</p>
+          </div>
+          {/* Add more property cards as needed */}
+        </div>
       </div>
+      <PropertiesByArea />
+      <RentProperties />
+      <RentPropertiesContainer />
+      <Form />
+      <Footer
+        logoHeight="/entlogo.png"
+        socialMediaLogo="/social-media-logo5.svg"
+        socialMediaLogo1="/social-media-logo6.svg"
+        socialMediaLogo2="/social-media-logo7.svg"
+        socialMediaLogo3="/social-media-logo8.svg"
+        socialMediaLogo4="/social-media-logo9.svg"
+        propOverflow="unset"
+      />
     </div>
   );
 };
